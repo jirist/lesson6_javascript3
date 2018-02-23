@@ -18,8 +18,8 @@ var figureCount = 3;
 /********************************************************************************************************/
 function populateFigures() {
 
-
-
+    var filename;
+    var currentFig;
 
 }//end of populateFigures function
 
@@ -84,9 +84,9 @@ function previewFive() {
 function createEventListeners() {
    
    var leftarrow = document.getElementById("leftarrow");
-   var rightarrow = document.getElementById("rightarrow");
-   
    leftarrow.addEventListener("click", leftArrow, false);
+   
+   var rightarrow = document.getElementById("rightarrow");
    rightarrow.addEventListener("click", rightArrow, false);
    
 }//end of createEventListeners function
