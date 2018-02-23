@@ -77,8 +77,14 @@ function leftArrow() {
 /******************************************************************************************************/
 function previewFive() {
    
-
+   // create figure and img elements for fifth image
+   var lastFigure = document.createElement("figure");
    
+   lastFigure.id = "fig5";
+   lastFigure.style.zIndex = "5";
+   lastFigure.style.position = "absolute";
+   lastFigure.style.right = "45px";
+   lastFigure.style.top = "67px";
    
 }//end of previewFive()
 
