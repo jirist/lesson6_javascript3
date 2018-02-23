@@ -1,7 +1,7 @@
 /*    
     Program Name:  Photo Gallery Application
-    Author: 
-    Date:   
+    Author: Jiri Stanc
+    Date:   February 23, 2018
     Filename: photos.js
     
  */
