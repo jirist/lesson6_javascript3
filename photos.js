@@ -86,6 +86,10 @@ function previewFive() {
    lastFigure.style.right = "45px";
    lastFigure.style.top = "67px";
    
+   var lastImage = document.createElement("img");
+   lastImage.width = "240";
+   lastImage.height = "135";
+   
 }//end of previewFive()
 
 /****************************************END of previewFive() Function**********************************/
