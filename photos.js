@@ -83,6 +83,7 @@ function previewFive() {
 /*******************************************************************************************************/
 function createEventListeners() {
    
+   var leftarrow = document.getElementById("leftarrow");
 
 
    
