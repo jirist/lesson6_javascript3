@@ -10,7 +10,7 @@ February 23, 2018
 Jiri Stanc
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+Using JavaScript application, the purpose of this assignment is to develop an interactive photo image gallery by accessing and manipulating DOM.
 
 ### View Project:
 (Replace this statement with your Github Page URL that was created when you 
