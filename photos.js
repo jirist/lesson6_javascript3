@@ -21,13 +21,27 @@ function populateFigures() {
     var filename;
     var currentFig;
     
-    for (var i = 1;  i < 4;  i++) {
+    if (figureCount === 3) {
         
-        filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
-        currentFig = document.getElementsByTagName("img")[i - 1];
-        currentFig.src = filename;
+       for (var i = 1;  i < 4;  i++) {
         
-    }//end of for loop
+           filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
+           currentFig = document.getElementsByTagName("img")[i - 1];
+           currentFig.src = filename;
+        
+       }//end of for loop
+       
+    }  else {
+           
+       for (var i = 0; i < 5; i++) {
+           
+           filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
+           currentFig = document.getElementsByTagName("img")[i];
+           currentFig.src = filename;
+
+       }//end of for loop
+    
+    }//end of else
 
 }//end of populateFigures function
 
