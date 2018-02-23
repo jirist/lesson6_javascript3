@@ -89,12 +89,23 @@ function previewFive() {
 /***********************************createEventListeners() Function*************************************/
 /*         This method attaches event listeners to the buttons (left, right, and show all).            */
 /*******************************************************************************************************/
+
+// create event listeners for left arrow, right arrow, and fiveButton elements
+
 function createEventListeners() {
    
+   //declare variable for document element with id of leftarrow in the html document
    var leftarrow = document.getElementById("leftarrow");
+   
+   //add an event handler to the specified document element (leftarrow)
+   //the leftArrow() function will executed when user clicks the left navigation arrow
    leftarrow.addEventListener("click", leftArrow, false);
    
+   //declare variable for document element with id of rightarrow in the html document
    var rightarrow = document.getElementById("rightarrow");
+   
+   //add an event handler to the specified document element (rightarrow)
+   //the rightArrow() function will executed when user clicks the right navigation arrow
    rightarrow.addEventListener("click", rightArrow, false);
    
 }//end of createEventListeners function
