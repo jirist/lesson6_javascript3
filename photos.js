@@ -97,6 +97,15 @@ function previewFive() {
    lastFigure.appendChild(lastImage);
    
    articleEl.appendChild(lastFigure);
+   
+   //clone figure element for fifth image and edit to be first image
+   var firstFigure = lastFigure.cloneNode(true);
+   
+   firstFigure.id = "fig1";
+   firstFigure.style.right = " ";
+   firstFigure.style.left = "45px";
+   
+   articleEl.insertBefore(firstFigure, document.getElementById("fig2"));
 
 }//end of previewFive()
 
