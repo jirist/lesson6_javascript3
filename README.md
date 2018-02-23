@@ -13,8 +13,7 @@ Jiri Stanc
 Using JavaScript application, the purpose of this assignment is to develop an interactive photo image gallery by accessing and manipulating DOM.
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://jirist.github.io/lesson6_javascript3/
 
 ### Lessons Learned in the Assignment:
 1. (Briefly describe a lesson/concept learned in this lesson.)
