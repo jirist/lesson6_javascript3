@@ -118,6 +118,13 @@ function createEventListeners() {
    //the rightArrow() function will executed when user clicks the right navigation arrow
    rightarrow.addEventListener("click", rightArrow, false);
    
+   //declare a variable for the element fiveButton 
+   var showAllButton = document.querySelector("#fiveButton p");
+
+   //add event listener to showAllButton element
+   //when the user clicks the Show More button the previewFive function is executed
+   showAllButton.addEventListener("click", previewFive, false);
+   
 }//end of createEventListeners function
 
 /************************************END OF createEventListeners() FUNCTION****************************/
