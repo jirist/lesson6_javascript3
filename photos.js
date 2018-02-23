@@ -76,6 +76,9 @@ function leftArrow() {
 /*           This method is executed to allow the photo gallery to shift to five image layout.         */
 /******************************************************************************************************/
 function previewFive() {
+    
+   //locate first element where the tag is article assign to a variable
+   var articleEl = document.getElementsByTagName("article")[0];
    
    // create figure and img elements for fifth image
    var lastFigure = document.createElement("figure");
@@ -90,6 +93,11 @@ function previewFive() {
    lastImage.width = "240";
    lastImage.height = "135";
    
+   //add or attach the fifth image to preview
+   lastFigure.appendChild(lastImage);
+   
+   articleEl.appendChild(lastFigure);
+
 }//end of previewFive()
 
 /****************************************END of previewFive() Function**********************************/
