@@ -85,7 +85,9 @@ function createEventListeners() {
    
    var leftarrow = document.getElementById("leftarrow");
    var rightarrow = document.getElementById("rightarrow");
+   
    leftarrow.addEventListener("click", leftArrow, false);
+   rightarrow.addEventListener("click", rightArrow, false);
    
 }//end of createEventListeners function
 
