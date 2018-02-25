@@ -32,5 +32,6 @@ Each HTML document displayed in a browser becomes a document object. In other wo
 
 The Document Object Model defines a structure of documents and the way a document can be modified. Each HTML element is represented by an object, so with the Document Object Model a developer can navigate the structure of the document and modify its elements and content. There are many ways to change existing elements, their content or attributes; for example, the most elementary way to modify a content of an element is by using the innerHTML or textContent property.
 
-5. (Briefly describe a lesson/concept learned in this lesson.)
-6. (Briefly describe a lesson/concept learned in this lesson.)
+5. Adding and Removing Objects in the DOM
+
+The Document Object Model, allows a developer to access and manipulate the contents of a web page; it provides a structured representation of elements and content in a page with methods for retrieving and modifying of these objects. The Document Object Model also provides methods for adding and removing of these objects, allowing the developer to create dynamic content. Adding or removing elements works much the same way; the main difference when creating a new element is being in creating the element and placing a content within it. The first step (when creating new element) is to give it a name of a tag. Once the element is created, it needs to be added as a child to some existing element in the document tree. Since the newly created element is just an empty tag, the developer also needs to add an content.
