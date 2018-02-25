@@ -28,6 +28,9 @@ An event is an action the user has taken. Events can be triggered on any part of
 
 Each HTML document displayed in a browser becomes a document object. In other words, a document object represents an HTML document displayed in the browser. Homogenized by the World Wide Web Consortium, and well supported by modern browsers, the document object allows access to all document content. Constructed as a tree of objects, the method a document content is structured is called Document Object Model. The most common way to access an HTML element in the document object is to find the element by its id. Another way to find and access HTML elements in the document object is by the elements' tag name or class name.
 
-4. (Briefly describe a lesson/concept learned in this lesson.)
+4. Modifying Objects in the DOM
+
+The Document Object Model defines a structure of documents and the way a document can be modified. Each HTML element is represented by an object, so with the Document Object Model a developer can navigate the structure of the document and modify its elements and content. There are many ways to change existing elements, their content or attributes; for example, the most elementary way to modify a content of an element is by using the innerHTML or textContent property.
+
 5. (Briefly describe a lesson/concept learned in this lesson.)
 6. (Briefly describe a lesson/concept learned in this lesson.)
